@@ -65,12 +65,15 @@ const App: React.FC = () => {
       </p>
 
       <input
+        className="input-search"
         type="text"
         id="estado-pesquisa"
         placeholder="Digite a sigla do estado (UF)"
         value={ufInput}
         onChange={handleInputChange}
         maxLength={2}
+        autoComplete="off"
+        
       />
 
       {estadoInfo && Object.keys(estadoInfo).length === 0 && (
