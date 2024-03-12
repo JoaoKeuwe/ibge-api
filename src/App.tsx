@@ -41,8 +41,6 @@ const App: React.FC = () => {
         }
         const data: Estado = await response.json();
         setEstadoInfo(data);
-        console.log(data);
-
         setErro(null);
       } catch (error) {
         console.error("Erro ao buscar informações do estado:", error);
@@ -73,7 +71,6 @@ const App: React.FC = () => {
         onChange={handleInputChange}
         maxLength={2}
         autoComplete="off"
-        
       />
 
       {estadoInfo && Object.keys(estadoInfo).length === 0 && (
