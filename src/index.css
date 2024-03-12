@@ -1,0 +1,49 @@
+li {
+  text-decoration: none;
+  list-style: none;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-image: url(./assets/isaac-e-quezada-CuropgVMpRQ-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.information-container {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 19px 38px hsla(0, 0%, 71%, 0.604),
+    0 15px 12px rgba(62, 62, 62, 0.456);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  padding: 1rem;
+}
+
+.information-section h3 {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.information-section li {
+  font-size: 40px;
+}
+
+.information-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
