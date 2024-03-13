@@ -14,7 +14,7 @@ li {
   align-items: center;
   flex-direction: column;
   height: 100vh;
-  background-image: url(./assets/isaac-e-quezada-CuropgVMpRQ-unsplash.jpg);
+  background-image: url(./assets/background-image.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -27,7 +27,7 @@ li {
 
 .main-container p {
   font-family: "Play", sans-serif;
-  font-size: 20px;
+  font-size: 25px;
   margin-top: 2rem;
 }
 

@@ -57,7 +57,7 @@ const App: React.FC = () => {
 
   return (
     <main className="main-container">
-      <h1>Procurando por estados brasileiros?</h1>
+      <h1>PROCURANDO POR ESTADOS BRASILEIROS?</h1>
       <p>
         Digite a sigla do estado (UF) no campo abaixo para ver suas informações.
       </p>
