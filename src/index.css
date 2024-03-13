@@ -31,14 +31,22 @@ li {
   margin-top: 2rem;
 }
 
+.error-message {
+  background: rgba(255, 255, 255, 0.788);
+  border-radius: 16px;
+  backdrop-filter: blur(10.7px);
+  -webkit-backdrop-filter: blur(10.7px);
+  padding: 10px;
+}
+
 .input-search {
   width: 16rem;
   margin-top: 5rem;
   border-radius: 8px;
-   box-shadow: 0 5px 5px hsla(219, 96%, 11%, 0.604),
+  box-shadow: 0 5px 5px hsla(219, 96%, 11%, 0.604),
     0 5px 12px rgba(224, 0, 123, 0.226);
-    border: none;
-    padding: 10px;
+  border: none;
+  padding: 10px;
 }
 
 .information-container {
@@ -53,10 +61,10 @@ li {
   width: 500px;
   padding: 1rem;
   margin-top: 2rem;
-background: rgba(255, 255, 255, 0.21);
-border-radius: 16px;
-backdrop-filter: blur(10.7px);
--webkit-backdrop-filter: blur(10.7px);
+  background: rgba(255, 255, 255, 0.21);
+  border-radius: 16px;
+  backdrop-filter: blur(10.7px);
+  -webkit-backdrop-filter: blur(10.7px);
 }
 
 .information-section h3 {
@@ -73,4 +81,37 @@ backdrop-filter: blur(10.7px);
   display: flex;
   flex-direction: column;
   gap: 2rem;
+}
+
+/* responsivo  */
+
+@media (max-width: 500px) {
+  .main-container {
+    height: 100vh;
+    background-image: url(./assets/background-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .main-container h1 {
+    font-size: 30px;
+    text-align: center;
+     color: rgb(255, 255, 255);
+  }
+
+  .main-container p {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+  }
+
+  .information-container {
+    width: 350px;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+
+  .error-message {
+    color: black;
+  }
 }
